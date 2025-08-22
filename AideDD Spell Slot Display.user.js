@@ -62,8 +62,8 @@ function loadCasterDisplay(level)
             for (let scount = 0; scount < slots[index]; scount++)
             {
                 let cb = document.createElement("span");
-                if(scount < current_slots) cb.innerHTML = `<input type=\"checkbox\" level=${(index+1)} checked/>`;
-                else cb.innerHTML = `<input type=\"checkbox\" level=${(index+1)}/>`;
+                if(scount < current_slots) cb.innerHTML = `<input type=\"checkbox\" level=\"${(index+1)}\" checked/>`;
+                else cb.innerHTML = `<input type=\"checkbox\" level=\"${(index+1)}\"/>`;
                 container.appendChild(cb);
             }
             display.appendChild(container);
