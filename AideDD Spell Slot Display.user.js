@@ -2,7 +2,7 @@
 // @name         AideDD Spell Slot Display
 // @namespace    http://tampermonkey.net/
 // @version      2025-08-22
-// @description  Affiche sur le grimoire un affichage pour les lanceurs de sorts qui calcule les emplacements en fonction du niveau.
+// @description  Affiche sur le grimoire un affichage pour les lanceurs de sorts qui calcule les emplacements en fonction du niveau. Based on : https://fexlabs.com/5eslots/, currently does not support warlocks spells slots.
 // @author       Neylick
 // @match        https://www.aidedd.org/dnd/sortsList.php
 // @icon         data:image/gif;base64,R0lGODlhAQABAAAAACH5BAEKAAEALAAAAAABAAEAAAICTAEAOw==
