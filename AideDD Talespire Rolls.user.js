@@ -15,7 +15,7 @@ function convertTextToTalespireLinks(el)
         let d = (g2 == undefined ? "1" : g2) + "d" + g3 + g4;
 		d = d.replace(/\s+/g, "");
         let f = d.replace(/(\d+)d100/g, "$1d10+$1d100");
-		let m = `<a href="talespire://dice/:${f}"> ${d} </a>`;
+		let m = g1 + `<a href="talespire://dice/:${f}"> ${d} </a>`;
 		return m;
 	});
 	desc = desc.replace(/([^\d]|^)([+−-]\s*\d+)/g, (match, g1, g2) => {
